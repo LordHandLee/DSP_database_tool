@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>868</width>
+    <height>851</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Database Hive Tool</string>
+  </property>
+  <widget class="QPushButton" name="df_to_db">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>620</y>
+     <width>261</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Convert dataframe to .db</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="df_to_csv">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>620</y>
+     <width>281</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Convert dataframe to CSV file</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loadCSV">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>320</y>
+     <width>261</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Load CSV into dataframe</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loadSQL">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>320</y>
+     <width>321</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Load SQL(.db file) into dataframe</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>10</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Loaded file...</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>50</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sample Dataframe</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="selectDir">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>470</y>
+     <width>361</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select corresponding image directory</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="data_cleanup">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>470</y>
+     <width>191</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dataframe cleanup</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>410</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cleanup/processing:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>440</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Image directory</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>280</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Loading/pre-processing:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>580</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Post/write to file:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="merge">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>380</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Merge</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="concat">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>470</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add/Concatenate</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>50</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sample Dataframe 2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>10</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Loaded file 2...</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>381</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>70</y>
+     <width>391</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stats">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>620</y>
+     <width>211</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dataset statistics</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
